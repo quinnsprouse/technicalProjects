@@ -1,0 +1,109 @@
+body {
+	width: 100%;
+	background-color: #F4F4F4;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+		sans-serif;
+}
+
+body, header, nav {
+	margin: 0px;
+}
+
+section {
+	clear: both;
+	display: block;
+	margin: 20px auto;
+	vertical-align: top;
+	text-align: center;
+	min-height: 450px;
+	background-color: #FFF;
+	border-radius: 7px;
+	padding: 40px;
+} 
+form {
+	text-align: left;
+	padding-left: 40px;
+	
+}
+/* Home Page CSS */
+.flexParkCard {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	border-radius: 5px;
+  	padding: 40px;
+} 
+
+.parkCard {
+	text-align: left;
+} 
+.flexParkCard:hover {
+	/*box-shadow: 0 5px 22px 0 rgba(0,0,0,.25);*/
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin-bottom: 54px;
+  
+}
+
+/* Detail Page CSS: */
+.mainImage {
+	width: 100%;
+}
+.selectedPark {
+	display:flex;
+}
+.parkInfo {
+	padding: 40px;
+	margin: 0px;
+}
+.weatherCard {
+	display: flex;
+}
+.weatherCardItem {
+	width: 20%;
+	padding: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 90%;
+  	border-radius: 5px;
+}
+table {
+	text-align: center;
+}
+.parkTable {
+	padding-bottom: 40px;
+}
+/* Survey List CSS: */
+.detailImage {
+	border-radius: 4px; 
+	padding: 5px; 
+}
+
+
+#summary {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#summary p.collapse:not(.show) {
+    height: 42px !important;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+}
+
+#summary p.collapsing {
+    min-height: 42px !important;
+}
+
+#summary a.collapsed:after  {
+    content: '+ Read More';
+}
+
+#summary a:not(.collapsed):after {
+    content: '- Read Less';
+}
+
+.error {
+	color:red;
+}
